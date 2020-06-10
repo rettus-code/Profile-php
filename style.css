@@ -3,6 +3,8 @@
     margin: 15px;
     font-size: 4em;
 }
-#three_paths {
-    margin:20px;
+
+.card{
+    background-color: rgb(178, 217, 230);
+    border: rgba(57, 78, 197, 0.445) solid 2px;
 }
