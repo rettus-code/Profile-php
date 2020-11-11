@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-    const sr = ScrollReveal({
+    windows.sr = ScrollReveal({
         duration:600,
         origin:'bottom',
         delay:200,
