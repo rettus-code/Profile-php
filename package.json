@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "I knew this was going to be the most time consuming. As the starting point it would be the basis of styling setup for my navbar  and being the first thing anyone sees should definitely be complete. It was a great time to practice some of the new bootstrap  techniques I had learned. I always wanted to keep it pretty simple, don't want to overwhelm anyone right away and also give me some  to work with where I wouldn't feel like restarting the entire page.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rettus-code/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rettus-code/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rettus-code/Portfolio#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "bootstrap": "^5.0.0-alpha1",
+    "favicons": "^6.2.0",
+    "jquery": "^3.5.1",
+    "baguettebox.js": "^1.11.1",
+    "favicon": "0.0.2",
+    "particles": "^0.3.1",
+    "popper.js": "^1.16.1",
+    "scrollreveal": "^4.0.7"
+  }
+}

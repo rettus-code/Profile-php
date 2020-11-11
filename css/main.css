@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+header {
+  color: silver;
+  text-shadow: 2px 2px #0a5ea3;
+}
+
+h5 {
+  color: silver;
+  text-shadow: 2px 2px #0a5ea3;
+  font-size: 1.3rem;
+}
+
+p {
+  color: black;
+  text-shadow: none;
+}
+
+.navbar {
+  color: silver;
+  background-color: #0a5ea3;
+}
+
+#RC_h1 {
+  font-family: 'Metal Mania', cursive;
+  margin: 15px;
+  font-size: 4em;
+}
+
+.card {
+  background-color: #c5f1ff;
+  border: #0a5ea3 solid 2px;
+  margin: 15px 15px;
+  height: 100%;
+}
+
+.card img {
+  height: 45%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  hr {
+    width: 100%;
+  }
+}
+
+div.cont {
+  background-color: #383838;
+}
