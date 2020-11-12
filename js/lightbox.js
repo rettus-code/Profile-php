@@ -3,13 +3,11 @@
 $(document).ready(function(){
 
     const sr = ScrollReveal({
-        duration:600,
+        duration:900,
         origin:'bottom',
         delay:200,
-        distance:'80px',
-        reset: true,
+        distance:'100px',
     });
-
     sr.reveal('header');
     sr.reveal('.sideleft',{
         origin: 'left',
@@ -18,9 +16,4 @@ $(document).ready(function(){
         origin: 'right',
     });
     sr.reveal('.center');
-    sr.reveal('.newsletter');
-
-    baguetteBox.run('.gallery', {
-        animation: 'fadeIn',
-    });
 });
