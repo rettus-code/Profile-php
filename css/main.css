@@ -3,8 +3,20 @@
 @import url("../node_modules/bootstrap/scss/bootstrap.scss");
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
 header {
-  color: silver;
+  color: silver !important;
   text-shadow: 2px 2px #0a5ea3;
+}
+
+.navbar-brand {
+  color: silver !important;
+}
+
+.nav-link {
+  color: silver !important;
+}
+
+.nav-link:hover {
+  color: white !important;
 }
 
 h5 {

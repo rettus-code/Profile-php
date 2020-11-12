@@ -5,8 +5,17 @@
 
 
 header {
-    color: silver;
+    color: silver !important;
     text-shadow: 2px 2px rgb(10, 94, 163);
+}
+.navbar-brand {
+    color: silver !important;
+}
+.nav-link {
+    color: silver !important;
+}
+.nav-link:hover {
+    color: white !important;
 }
 h5 {
     color: silver;
