@@ -12,7 +12,7 @@ form1.addEventListener('submit', e => {
     }
     form1.submit();
 })
-$(document).ready(function(){
+$(function(){
     $(".owl-carousel").owlCarousel({
         center:true,
         loop:true,
