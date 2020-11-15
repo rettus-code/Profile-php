@@ -74,6 +74,17 @@ p {
   -webkit-animation: fill 1.5s ease-in forwards;
 }
 
+.container {
+  margin-bottom: 5%;
+}
+
+#reviews {
+  text-align: center;
+  color: #0a5ea3;
+  text-shadow: 2px 2px silver;
+  font-family: 'Metal Mania', cursive;
+}
+
 .card {
   background-color: #c5f1ff;
   border: #0a5ea3 solid 2px;
@@ -84,7 +95,26 @@ p {
 
 .card img {
   height: 55%;
+  border: #0a5ea3 solid 2px;
   overflow: hidden;
+}
+
+.testimonial-img {
+  width: 35% !important;
+  margin: 5% auto;
+  border: 3px ridge silver;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.test-card {
+  background-color: #c5f1ff;
+  border: #0a5ea3 solid 2px;
+  margin: 15px 15px;
+  height: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border-radius: 45px;
 }
 
 .btn {
