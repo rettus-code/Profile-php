@@ -110,7 +110,7 @@ p {
 
 .test-card {
   background-color: #c5f1ff;
-  border: #0a5ea3 solid 2px;
+  border: 2px solid #0a5ea3;
   margin: 15px 15px;
   height: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -123,6 +123,13 @@ p {
   color: silver;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
   margin-right: 5px;
+}
+
+.pic {
+  width: 50% !important;
+  border: 2px solid #0a5ea3;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 @media only screen and (max-width: 900px) {

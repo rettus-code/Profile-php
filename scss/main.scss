@@ -95,7 +95,7 @@ p {
 }
 .test-card {
     background-color: rgb(197, 241, 255);
-    border: rgb(10, 94, 163) solid 2px;
+    border: 2px solid rgb(10, 94, 163);
     margin: 15px 15px;
     height: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -107,6 +107,12 @@ p {
     color: silver;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
     margin-right: 5px;
+}
+.pic {
+    width: 50% !important;
+    border: 2px solid rgb(10, 94, 163);
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 @media only screen and (max-width: 900px) {
     hr {

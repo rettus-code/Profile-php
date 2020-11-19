@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="test-card">
-            <img src="images\professional-headshots-nyc-034.jpg" class="testimonial-img" alt="Gaming Store Site">
+            <img src="images\professional-headshots-nyc-034.jpg" class="testimonial-img" alt="">
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
