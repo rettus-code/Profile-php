@@ -126,7 +126,8 @@ p {
 }
 
 .pic {
-  width: 50% !important;
+  width: 80%;
+  height: 100%;
   border: 2px solid #0a5ea3;
   border-radius: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);

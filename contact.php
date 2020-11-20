@@ -64,7 +64,7 @@
       <div class="row">
         <div class="col-lg-2 col-md-1"></div>
         <div class="col-lg-4 col-md-6">
-          <form>
+          <form action="insert.php" method="post">
             <div class="form-group">
               <label for="exampleFormControlInput0">Name</label>
               <input type="name" name = "name" class="form-control" id="exampleFormControlInput0" placeholder="name">
@@ -91,11 +91,8 @@
             </div>
           </form>
         </div>
-        
       </div>
-      
     </div>
-      
   </div>
   <footer class ="main-footer">
     <div class="container footer-grid">
@@ -117,8 +114,6 @@
     </div>
     <div class="copyright"><i class="far fa-copyright"></i> Copyright 2020 All rights reserved | Michael Rettus</div>
   </footer>
-
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
