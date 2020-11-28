@@ -2,21 +2,47 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.css");
 @import url("../node_modules/bootstrap/scss/bootstrap.scss");
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   color: silver !important;
   text-shadow: 2px 2px #0a5ea3;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
 .navbar-brand {
   color: silver !important;
+  padding-left: 15%;
+  font-size: 2em;
+  text-shadow: 1px 1px #0a5ea3;
+}
+
+nav ul li {
+  margin-left: 30%;
 }
 
 .nav-link {
   color: silver !important;
+  text-shadow: 1px 1px #0a5ea3;
+  margin-right: 10%;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .nav-link:hover {
   color: white !important;
+  text-shadow: 1px 1px black;
+}
+
+hr {
+  border: 1px solid #0a5ea3;
 }
 
 h5 {
@@ -25,20 +51,58 @@ h5 {
   font-size: 1.3rem;
 }
 
+.jumbotron {
+  height: 100%;
+  position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.scroll {
+  position: relative;
+}
+
+.intro {
+  color: silver;
+  text-shadow: 1px 1px #063861;
+  font-size: 1.2rem;
+  position: relative;
+  text-align: center;
+}
+
+.intro-row {
+  margin: 80px;
+  margin-right: 0;
+}
+
+.intro-gif {
+  border: 2px solid #0a5ea3;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+}
+
 p {
-  color: black;
+  color: silver;
   text-shadow: none;
 }
 
-.navbar {
-  background-color: #0a5ea3;
+.card-text {
+  color: #000;
 }
 
 #RC_h1 {
   font-family: 'Metal Mania', cursive;
-  margin: 15px;
   font-size: 4em;
-  z-index: 5;
+  margin: 100px;
 }
 
 .footer a {
@@ -76,20 +140,22 @@ p {
 }
 
 .container {
+  margin: auto;
   margin-bottom: 5%;
 }
 
 #reviews {
   text-align: center;
-  color: #0a5ea3;
-  text-shadow: 2px 2px silver;
+  color: silver;
+  text-shadow: 2px 2px #0a5ea3;
   font-family: 'Metal Mania', cursive;
+  margin: 100px;
 }
 
 .card {
   background-color: #c5f1ff;
   border: #0a5ea3 solid 2px;
-  margin: 15px 15px;
+  margin: 5px 5px;
   height: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
@@ -110,7 +176,7 @@ p {
 
 .test-card {
   background-color: #c5f1ff;
-  border: 2px solid #0a5ea3;
+  border: #0a5ea3 solid 2px;
   margin: 15px 15px;
   height: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -125,15 +191,23 @@ p {
   margin-right: 5px;
 }
 
-.pic {
-  width: 80%;
-  height: 100%;
-  border: 2px solid #0a5ea3;
-  border-radius: 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+.my-pic {
+  width: 70%;
+  border: 3px ridge #0a5ea3;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#port {
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px #0a5ea3;
 }
 
 @media only screen and (max-width: 900px) {
+  .navbar-toggler-icon {
+    background-color: #0a5ea3;
+  }
   hr {
     width: 100%;
   }
@@ -143,6 +217,19 @@ p {
   .footer-grid {
     display: block;
     flex-direction: column;
+  }
+  .intro-row {
+    margin: auto;
+  }
+  .navbar {
+    position: relative;
+    top: 0;
+    z-index: 10;
+  }
+  #RC_h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 4em;
+    margin: 20px;
   }
 }
 
@@ -163,11 +250,13 @@ p {
 .copyright {
   clear: left;
   text-align: center;
+  color: silver;
 }
 
 #carousel {
-  color: #0a5ea3;
+  color: silver;
   text-align: center;
   font-family: cursive;
-  text-shadow: 2px 2px silver;
+  text-shadow: 2px 2px #0a5ea3;
+  margin-bottom: 50px;
 }
