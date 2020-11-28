@@ -134,6 +134,9 @@ p {
 #review-cards {
     font-family: 'Metal Mania', cursive;
 }
+.revStyle {
+    margin-bottom: 40px;
+}
 .card{
     background-color: rgb(197, 241, 255);
     border: rgb(10, 94, 163) solid 2px;
@@ -229,4 +232,9 @@ p {
     font-family: cursive;
     text-shadow: 2px 2px rgb(10, 94, 163);
     margin-bottom: 50px;
+}
+.top {
+    position: fixed;
+    top: 0;
+    z-index: 11;
 }

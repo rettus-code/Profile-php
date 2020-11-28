@@ -19,7 +19,7 @@
     <?php include 'include/reviews.php';?>
     <?php include 'include/contact.php';?>
     <?php include 'include/footer.php';?>
-    
+    <button class="top" type="button"><a class="nav-link" href="#home">Return to top of page<span class="sr-only">(current)</span></a></button>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
@@ -28,5 +28,6 @@
     <script src="node_modules/owl.carousel/src/js/owl.carousel.js"></script>
     <script src="js/lightbox.js" type="text/JavaScript"></script>
     <script src="js/main.js" type="text/JavaScript"></script>
+
 </body>
 </html>

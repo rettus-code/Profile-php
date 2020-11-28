@@ -1,14 +1,26 @@
+<?php
+    include('config.php');
+
+    $sql = "SELECT * FROM review";
+
+    $result = mysqli_query($con,$sql);
+
+    while($row =mysqli_fetch_array($result)){
+        $j = $row['stars'];
+    ?>
 <div class="test-card" id="review-cards">
     <br>
     <h5>Link to website being reviewed</h5>
-    <a href="https://rettus-code-lab6.netlify.app/index.html">Site Under Review</a><br><br>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
+    <?php
+    echo "<a target = '_blank' href=".$row['link'].">Site Under Review</a><br><br>";
+    for ($i=0; $i < $j; $i++)
+        echo "<i class ='fa fa-star' aria-hidden ='true'></i>";
+    ?>
     <div class="card-body">
-        <h5 class="card-title">Jenny Doe</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <?php echo "<h5 class='card-title'>".$row['name']."</h5>";
+        echo "<p class='card-text'>".$row['review']."</p>";?>
     </div>
 </div>
+<?php
+}
+?>

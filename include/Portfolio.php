@@ -1,4 +1,4 @@
-<div class="row">
+<div id="portfolio" class="row">
     <header class="col-md-12">
         <h1 id="RC_h1"  class="text-center">Portfolio</h1>
     </header>
@@ -6,9 +6,9 @@
 
 <h4 id="carousel">Scroll right or left and visit some of the fun projects I've done!</h4>
 <p id="port">You can navigate to the website or the repo to review the code. You can see the sites evolve as my knowledge improved.</p>
-    <div id="portfolio" class="owl-carousel">
+    <div class="owl-carousel">
     <div class="card item">
-        <img src="images/blog.png" width="50%" height="60%" class="card-img-top" alt="My first webpage">
+        <img src="images/blog.png" class="card-img-top" alt="My first webpage">
         <div class="card-body">
             <h5 class="card-title">Blog</h5>
             <p class="card-text">My first webpage. I used a Summer to learn a bit of HTML and CSS and this was what I came up with. It was a fun start I learned it was easy to come up with a web page, but difficult to make it usefull. It was a proof of concept, that I could do this while travelling at 70mph.</p>
