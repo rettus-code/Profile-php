@@ -4,9 +4,11 @@
         </video>
         <---- nav ------>
         <?php include 'navbar.php';?>
-        <header class="col-12">
-            <h1 id="RC_h1" class="text-center">Rettus-Code<br></h1>
-        </header>
+        <div class="row">
+            <header class="col-md-12">
+                <h1 id="RC_h1"  class="text-center">Rettus-Code</h1>
+            </header>
+        </div>  
         <div class="intro intro-row row">
             <div class="intro-col col-md-5">
             <h4>Get your webpage noticed!</h4>

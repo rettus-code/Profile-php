@@ -8,6 +8,5 @@
 <div class="owl-carousel revStyle">
     <?php include 'review.php';?>
 </div>
-<br><br>
 <?php include 'reviewform.php';?>
 

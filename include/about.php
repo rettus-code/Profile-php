@@ -1,6 +1,9 @@
+    <script src="../node_modules/owl.carousel/src/js/owl.carousel.js"></script>
+    <script src="../js/owl.js" type="text/JavaScript"></script>
+
 <div  id="about" class="row">
         <header class="col-12">
-            <h1 id="RC_h1" class="text-center">About Me<br></h1>
+            <h1 id="RC_h1" class="text-center">About Me</h1>
         </header>
         
     </div>

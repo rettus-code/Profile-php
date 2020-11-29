@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$(function(){
 
     const sr = ScrollReveal({
         duration:900,

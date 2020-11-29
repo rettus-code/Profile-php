@@ -12,7 +12,7 @@
     <br>
     <h5>Link to website being reviewed</h5>
     <?php
-    echo "<a target = '_blank' href=".$row['link'].">Site Under Review</a><br><br>";
+    echo "<a target = '_blank' href=".$row['link'].">Site Being Reviewed</a><br><br>";
     for ($i=0; $i < $j; $i++)
         echo "<i class ='fa fa-star' aria-hidden ='true'></i>";
     ?>

@@ -2,6 +2,8 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.css");
 @import url("../node_modules/bootstrap/scss/bootstrap.scss");
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+@import url("node_modules/owl.carousel/dist/assets/owl.carousel.css");
+@import url("node_modules/owl.carousel/dist/assets/owl.theme.default.css");
 html {
   scroll-behavior: smooth;
 }
@@ -103,6 +105,7 @@ p {
   font-family: 'Metal Mania', cursive;
   font-size: 4em;
   margin: 100px;
+  z-index: 5;
 }
 
 .footer a {
@@ -136,7 +139,6 @@ p {
   opacity: 1;
   visibility: visible;
   height: 100%;
-  -webkit-animation: fill 1.5s ease-in forwards;
 }
 
 .container {
@@ -149,7 +151,14 @@ p {
   color: silver;
   text-shadow: 2px 2px #0a5ea3;
   font-family: 'Metal Mania', cursive;
-  margin: 100px;
+}
+
+#review-cards {
+  font-family: 'Metal Mania', cursive;
+}
+
+.revStyle {
+  margin-bottom: 40px;
 }
 
 .card {
@@ -175,6 +184,7 @@ p {
 }
 
 .test-card {
+  position: relative;
   background-color: #c5f1ff;
   border: #0a5ea3 solid 2px;
   margin: 15px 15px;
@@ -259,4 +269,16 @@ p {
   font-family: cursive;
   text-shadow: 2px 2px #0a5ea3;
   margin-bottom: 50px;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.owl-carousel {
+  display: block !important;
+  width: 100%;
+  height: auto;
 }
