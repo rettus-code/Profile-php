@@ -11,7 +11,7 @@ header {
   text-shadow: 2px 2px #0a5ea3;
 }
 
-.navbar {
+.topNav {
   position: fixed;
   top: 0;
   z-index: 10;
@@ -269,8 +269,9 @@ p {
   margin-bottom: 50px;
 }
 
-.top {
-  position: fixed;
-  top: 0;
-  z-index: 11;
+.bottomNav {
+  visibility: hidden;
+  left: 48%;
+  width: 20%;
+  z-index: 12;
 }

@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect('localhost','rettodua_rettusm','TrashCanMan2@','rettodua_portfolio');
+$con = mysqli_connect('localhost','root','','portfolio');
 
 
 if(!$con){

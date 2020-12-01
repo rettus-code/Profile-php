@@ -10,7 +10,7 @@ header {
     color: silver !important;
     text-shadow: 2px 2px rgb(10, 94, 163);
 }
-.navbar {
+.topNav {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -209,6 +209,13 @@ p {
         font-size: 4em;
         margin: 20px;
     }
+    .bottomNav {
+        visibility: visible !important;
+        position: fixed;
+        bottom: 40px;
+        left: 33%;
+        z-index: 12;
+    }
 }
 .footer {
     align-content: center;
@@ -233,8 +240,6 @@ p {
     text-shadow: 2px 2px rgb(10, 94, 163);
     margin-bottom: 50px;
 }
-.top {
-    position: fixed;
-    top: 0;
-    z-index: 11;
+.bottomNav {
+    visibility: hidden;
 }
