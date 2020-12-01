@@ -90,8 +90,8 @@
         <div class="card-body">
             <h5 class="card-title">Bellingham Hotel</h5>
             <p class="card-text">Back in school and finally working on projects as part of my degree plan. Looks like I'll be earning another certification from WWU while getting my bachelors. Always learning that seems to be the motto for web developers.</p>
-            <a href="https://rettus-code.github.io/lab6/index.html" class="btn" target="_blank">Bellingham Hotel</a>
-            <a href="https://rettus-code-lab6.netlify.app/index.html" class="btn" target="_blank">Repo</a>
+            <a href="http://rettus-code.com/bellhotel/" class="btn" target="_blank">Bellingham Hotel</a>
+            <a href="https://github.com/rettus-code/lab6" class="btn" target="_blank">Repo</a>
         </div>
     </div>
     </div>

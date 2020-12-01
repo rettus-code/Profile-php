@@ -12,16 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Rettus-code</title>
 </head>
-<script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="node_modules/scrollreveal/dist/scrollreveal.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="node_modules/owl.carousel/src/js/owl.carousel.js"></script>
-    <script src="js/owl.js" type="text/JavaScript"></script>
-    <script src="js/lightbox.js" type="text/JavaScript"></script>
-    <script src="js/main.js" type="text/JavaScript"></script>
-    <script src="js/owl.js" type="text/JavaScript"></script>
+
 <body>
     <?php include 'include/home.php';?>
     <?php include 'include/about.php';?>
