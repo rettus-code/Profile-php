@@ -10,7 +10,7 @@
             <br>
             <h4><a href="https://stackexchange.com/users/18674299/michael">StackExchange/StackOverflow</a></h3>
             <h4><a href="https://www.linkedin.com/in/michael-rettus-23680b150/">LinkedIn</a></h3>
-            <h4><a href="https://www.upwork.com/freelancers/~0120d677d50b804ebd">UpWork</a></h3>
+            <h4><a href="https://www.upwork.com/freelancers/~0195dd41e4644a8357?viewMode=1">UpWork</a></h3>
             <h4><a href="https://github.com/rettus-code">Github Profile</a></h3>
         
             <br>

@@ -16,6 +16,7 @@
   "homepage": "https://github.com/rettus-code/Portfolio#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
+    "baguettebox.js": "^1.11.1",
     "bootstrap": "^5.0.0-alpha1",
     "jquery": "^3.5.1",
     "npm": "^6.14.8",

@@ -16,4 +16,8 @@ $(function(){
         origin: 'right',
     });
     sr.reveal('.center');
+    
+    baguetteBox.run('.gallery', {
+        animation: 'fadeIn',
+    });
 });

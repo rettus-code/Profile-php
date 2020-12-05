@@ -8,17 +8,24 @@
         <li class="nav-item active">
         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#about">About Me</a>
+                <a class="dropdown-item" href="#reviews">My Testimonials</a>
+                <a class="dropdown-item" href="#gallery">Gallery</a>
+            </div>
         </li>
-        <li class="nav-item active">
-        <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
-        <li class="nav-item active">
-        <a class="nav-link" href="#rev_loc">Reviews <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+        <a class="nav-link" href="#rev_loc">Reviews</a>
         </li>
-        <li class="nav-item active">
-        <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
         </li>
     </ul>
     </div>

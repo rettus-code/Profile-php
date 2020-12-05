@@ -239,6 +239,13 @@ p {
     font-size: 4em;
     margin: 20px;
   }
+  .bottomNav {
+    visibility: visible !important;
+    position: fixed;
+    bottom: 15px;
+    left: 33%;
+    z-index: 12;
+  }
 }
 
 .footer {
@@ -271,7 +278,44 @@ p {
 
 .bottomNav {
   visibility: hidden;
-  left: 48%;
-  width: 20%;
-  z-index: 12;
+}
+
+.container-gallery {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  justify-items: center;
+  gap: 20px;
+  margin: 0.2em 2em 0.2em 2em;
+}
+
+.item a img {
+  width: 100%;
+  height: 100%;
+}
+
+.item a img:hover {
+  filter: blur(2px) brightness(60%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.main-padding {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.main-padding h5 {
+  margin: 30px;
+}
+
+.dropdown-menu {
+  background: transparent;
+}
+
+.dropdown-menu a {
+  color: silver;
+  text-shadow: 1px 1px #0a5ea3;
+  font-weight: bold;
 }

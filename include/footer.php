@@ -2,7 +2,7 @@
     <div class="container footer-grid">
         <div class="footer">
             <h5 class="sub-heading">CONTACT ME</h5>
-            <p>Call us<a href ="360 499 9260"> + 1360 499 9260</a></p>
+            <p>Call @<a href ="360 499 9260"> + 1360 499 9260</a></p>
         </div>
         <div class="footer">
             <h5 class="sub-heading">CONTACT ME</h5>
@@ -10,10 +10,7 @@
         </div>
         <div class="footer">
             <h5 class="sub-heading">CONTACT ME</h5>
-            <form method="POST" action="contact.html" class="feedback autocomplete">
-                <input type = "email" placeholder="Enter Email..." id="subscribe">
-                <button type = "submit" class = "button">Contact</button>
-            </form>
+            <p><a href = "https://www.upwork.com/freelancers/~0195dd41e4644a8357?s=1044578476142100494" target="_blank">Upwork.</a> Follow me.</p>
         </div>
     </div>
     <a class="btn bottomNav btn-primary" href="#home" role="button">Return to Top</a>

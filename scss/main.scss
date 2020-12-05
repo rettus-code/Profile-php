@@ -3,12 +3,17 @@
 @import url("../node_modules/bootstrap/scss/bootstrap.scss"); 
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css"); 
 
+
+$main-color:  rgb(10, 94, 163);
+$secondary-color: rgb(192, 192, 192);
+$main-bg: rgb(197, 241, 255);
+
 html {
     scroll-behavior: smooth;
 }
 header {
-    color: silver !important;
-    text-shadow: 2px 2px rgb(10, 94, 163);
+    color: $secondary-color !important;
+    text-shadow: 2px 2px $main-color;
 }
 .topNav {
     position: fixed;
@@ -16,17 +21,17 @@ header {
     z-index: 10;
 }
 .navbar-brand {
-    color: silver !important;
+    color: $secondary-color !important;
     padding-left: 15%;
     font-size: 2em;
-    text-shadow: 1px 1px #0a5ea3;
+    text-shadow: 1px 1px $main-color;
 }
 nav ul li {
     margin-left: 30%;
 }
 .nav-link {
-    color: silver !important;
-    text-shadow: 1px 1px #0a5ea3;
+    color: $secondary-color !important;
+    text-shadow: 1px 1px $main-color;
     margin-right: 10%;
     font-size: 1.2em;
     font-weight: bold;
@@ -37,11 +42,11 @@ nav ul li {
 }
 
 hr {
-    border: 1px solid rgb(10, 94, 163);
+    border: 1px solid $main-color;
 }
 h5 {
-    color: silver;
-    text-shadow: 2px 2px rgb(10, 94, 163);
+    color: $secondary-color;
+    text-shadow: 2px 2px $main-color;
     font-size: 1.3rem;
 }
 .jumbotron {
@@ -59,7 +64,7 @@ h5 {
     position: relative;
 }
 .intro {
-    color: silver;
+    color: $secondary-color;
     text-shadow: 1px 1px rgb(6, 56, 97);
     font-size: 1.2rem;
     position: relative;
@@ -71,14 +76,14 @@ h5 {
     margin-right: 0;
 }
 .intro-gif {
-    border:2px solid  rgb(10, 94, 163) ;
+    border:2px solid  $main-color;
     width: 100%;
 }
 footer {
     position: relative;
 }
 p {
-    color: silver;
+    color: $secondary-color;
     text-shadow: none;
 }
 .card-text {
@@ -96,7 +101,7 @@ p {
     z-index: 1;
 }
 .footer a:hover {
-    color: silver;
+    color: $secondary-color;
 }
 .footer a:after {
     display: block;
@@ -110,7 +115,7 @@ p {
     height: 1px;
     content: '.';
     color: transparent;
-    background:  rgb(10, 94, 163);
+    background:  $main-color;
     visibility: none;
     opacity: 0;
     z-index: -1;
@@ -126,8 +131,8 @@ p {
 }
 #reviews {
     text-align: center;
-    color: silver;
-    text-shadow: 2px 2px rgb(10, 94, 163);
+    color: $secondary-color;
+    text-shadow: 2px 2px $main-color;
     font-family: 'Metal Mania', cursive;
 }
 #review-cards {
@@ -137,28 +142,28 @@ p {
     margin-bottom: 40px;
 }
 .card{
-    background-color: rgb(197, 241, 255);
-    border: rgb(10, 94, 163) solid 2px;
+    background-color: $main-bg;
+    border: $main-color solid 2px;
     margin: 5px 5px;
     height: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 .card img {
     height: 55%;
-    border: rgb(10, 94, 163) solid 2px;
+    border: $main-color solid 2px;
     overflow: hidden;
 }
 .testimonial-img {
     width: 35% !important;
     margin: 5% auto;
-    border: 3px ridge silver;
+    border: 3px ridge $secondary-color;
     border-radius: 30px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 .test-card {
     position: relative;
-    background-color: rgb(197, 241, 255);
-    border: rgb(10, 94, 163) solid 2px;
+    background-color: $main-bg;
+    border: $main-color solid 2px;
     margin: 15px 15px;
     height: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -166,25 +171,25 @@ p {
     border-radius: 45px;
 }
 .btn {
-    background-color: rgb(10, 94, 163);
-    color: silver;
+    background-color: $main-color;
+    color: $secondary-color;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
     margin-right: 5px;
 }
 .my-pic {
     width: 70%;
-    border: 3px ridge rgb(10, 94, 163);
+    border: 3px ridge $main-color;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 #port{
     text-align: center;
     font-size: 1.2rem;
-    text-shadow: 1px 1px rgb(10, 94, 163);
+    text-shadow: 1px 1px $main-color;
 }
 @media only screen and (max-width: 900px) {
     .navbar-toggler-icon {
-        background-color: rgb(10, 94, 163);
+        background-color: $main-color;
     }
     hr {
     width: 100%;
@@ -212,7 +217,7 @@ p {
     .bottomNav {
         visibility: visible !important;
         position: fixed;
-        bottom: 40px;
+        bottom: 15px;
         left: 33%;
         z-index: 12;
     }
@@ -231,15 +236,48 @@ p {
 .copyright {
     clear: left;
     text-align: center;
-    color: silver;
+    color: $secondary-color;
 }
 #carousel {
-    color: silver;
+    color: $secondary-color;
     text-align: center;
     font-family: cursive;
-    text-shadow: 2px 2px rgb(10, 94, 163);
+    text-shadow: 2px 2px $main-color;
     margin-bottom: 50px;
 }
 .bottomNav {
     visibility: hidden;
+}
+.container-gallery {
+    width:60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    justify-items: center;
+    gap: 20px;
+    margin: 0.2em 2em 0.2em 2em;
+}
+.item a img {
+    width: 100%;
+    height: 100%;
+}
+.item a img:hover {
+    filter: blur(2px) brightness(60%);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+.main-padding {
+    margin: 60px auto;
+    text-align: center;
+}
+.main-padding h5 {
+    margin: 30px;
+}
+.dropdown-menu {
+    background: transparent;
+}
+.dropdown-menu a {
+    color: $secondary-color;
+    text-shadow: 1px 1px $main-color;
+    font-weight: bold;
 }
