@@ -60,12 +60,8 @@ CREATE TABLE `message` (
 --
 
 INSERT INTO `message` (`email`, `topic`, `text`) VALUES
-('', '', ''),
 ('michael.rettusii@gmail.com', 'new', 'new new'),
-('', '', ''),
-('', '', ''),
-('', '', ''),
-('', '', '');
+
 
 -- --------------------------------------------------------
 
