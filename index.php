@@ -20,6 +20,7 @@
     <?php include 'include/Portfolio.php';?>
     <?php include 'include/reviews.php';?>
     <?php include 'include/contact.php';?>
+    <?php include 'include/design.php';?>
     <?php include 'include/footer.php';?>
     
 
@@ -33,6 +34,8 @@
     <script src="js/lightbox.js" type="text/JavaScript"></script>
     <script src="js/main.js" type="text/JavaScript"></script>
     <script src="js/owl.js" type="text/JavaScript"></script>
+    <script src="js/contval.js"></script>
+    <script src="js/messval.js"></script>
 
 </body>
 </html>

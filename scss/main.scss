@@ -4,9 +4,9 @@
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css"); 
 
 
-$main-color:  rgb(10, 94, 163);
-$secondary-color: rgb(192, 192, 192);
-$main-bg: rgb(197, 241, 255);
+$main-color:  rgb(0, 114, 19);
+$secondary-color: rgb(145, 194, 145);
+$main-bg: rgb(238, 255, 239);
 
 html {
     scroll-behavior: smooth;
@@ -22,12 +22,11 @@ header {
 }
 .navbar-brand {
     color: $secondary-color !important;
-    padding-left: 15%;
     font-size: 2em;
     text-shadow: 1px 1px $main-color;
 }
 nav ul li {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .nav-link {
     color: $secondary-color !important;
@@ -46,7 +45,7 @@ hr {
 }
 h5 {
     color: $secondary-color;
-    text-shadow: 2px 2px $main-color;
+    text-shadow: 1px 1px $main-color;
     font-size: 1.3rem;
 }
 .jumbotron {
@@ -132,12 +131,9 @@ p {
 #reviews {
     text-align: center;
     color: $secondary-color;
-    text-shadow: 2px 2px $main-color;
-    font-family: 'Metal Mania', cursive;
+    text-shadow: 1px 1px $main-color;
 }
-#review-cards {
-    font-family: 'Metal Mania', cursive;
-}
+
 .revStyle {
     margin-bottom: 40px;
 }
@@ -220,6 +216,7 @@ p {
         bottom: 15px;
         left: 33%;
         z-index: 12;
+        border: transparent;
     }
 }
 .footer {
@@ -241,8 +238,7 @@ p {
 #carousel {
     color: $secondary-color;
     text-align: center;
-    font-family: cursive;
-    text-shadow: 2px 2px $main-color;
+    text-shadow: 1px 1px $main-color;
     margin-bottom: 50px;
 }
 .bottomNav {
@@ -259,7 +255,7 @@ p {
 }
 .item a img {
     width: 100%;
-    height: 100%;
+    height: 12vw;
 }
 .item a img:hover {
     filter: blur(2px) brightness(60%);
@@ -280,4 +276,30 @@ p {
     color: $secondary-color;
     text-shadow: 1px 1px $main-color;
     font-weight: bold;
+}
+h4 a {
+    color:$secondary-color;
+    text-shadow: 1px 1px $main-color;
+}
+.email {
+    color:$secondary-color;
+    text-shadow: 1px 1px $main-color;
+}
+.description h4 {
+    color: $secondary-color;
+    text-shadow: 1px 1px $main-color;
+    font-size: 2.0rem;
+    margin-bottom: 25px;
+}
+.description ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+h3, .tools li, #process, #desc {
+    color: $secondary-color;
+    text-shadow: 1px 1px $main-color;
+}
+.intro-col, .intro-img {
+    margin-top: 50px;
 }

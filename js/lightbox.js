@@ -7,6 +7,7 @@ $(function(){
         origin:'bottom',
         delay:200,
         distance:'100px',
+        reset: true,
     });
     sr.reveal('header');
     sr.reveal('.sideleft',{

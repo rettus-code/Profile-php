@@ -7,8 +7,8 @@ html {
 }
 
 header {
-  color: silver !important;
-  text-shadow: 2px 2px #0a5ea3;
+  color: #91c291 !important;
+  text-shadow: 2px 2px #007213;
 }
 
 .topNav {
@@ -18,19 +18,18 @@ header {
 }
 
 .navbar-brand {
-  color: silver !important;
-  padding-left: 15%;
+  color: #91c291 !important;
   font-size: 2em;
-  text-shadow: 1px 1px #0a5ea3;
+  text-shadow: 1px 1px #007213;
 }
 
 nav ul li {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .nav-link {
-  color: silver !important;
-  text-shadow: 1px 1px #0a5ea3;
+  color: #91c291 !important;
+  text-shadow: 1px 1px #007213;
   margin-right: 10%;
   font-size: 1.2em;
   font-weight: bold;
@@ -42,12 +41,12 @@ nav ul li {
 }
 
 hr {
-  border: 1px solid #0a5ea3;
+  border: 1px solid #007213;
 }
 
 h5 {
-  color: silver;
-  text-shadow: 2px 2px #0a5ea3;
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
   font-size: 1.3rem;
 }
 
@@ -69,7 +68,7 @@ h5 {
 }
 
 .intro {
-  color: silver;
+  color: #91c291;
   text-shadow: 1px 1px #063861;
   font-size: 1.2rem;
   position: relative;
@@ -82,7 +81,7 @@ h5 {
 }
 
 .intro-gif {
-  border: 2px solid #0a5ea3;
+  border: 2px solid #007213;
   width: 100%;
 }
 
@@ -91,7 +90,7 @@ footer {
 }
 
 p {
-  color: silver;
+  color: #91c291;
   text-shadow: none;
 }
 
@@ -112,7 +111,7 @@ p {
 }
 
 .footer a:hover {
-  color: silver;
+  color: #91c291;
 }
 
 .footer a:after {
@@ -127,7 +126,7 @@ p {
   height: 1px;
   content: '.';
   color: transparent;
-  background: #0a5ea3;
+  background: #007213;
   visibility: none;
   opacity: 0;
   z-index: -1;
@@ -146,13 +145,8 @@ p {
 
 #reviews {
   text-align: center;
-  color: silver;
-  text-shadow: 2px 2px #0a5ea3;
-  font-family: 'Metal Mania', cursive;
-}
-
-#review-cards {
-  font-family: 'Metal Mania', cursive;
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
 }
 
 .revStyle {
@@ -160,8 +154,8 @@ p {
 }
 
 .card {
-  background-color: #c5f1ff;
-  border: #0a5ea3 solid 2px;
+  background-color: #eeffef;
+  border: #007213 solid 2px;
   margin: 5px 5px;
   height: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -169,22 +163,22 @@ p {
 
 .card img {
   height: 55%;
-  border: #0a5ea3 solid 2px;
+  border: #007213 solid 2px;
   overflow: hidden;
 }
 
 .testimonial-img {
   width: 35% !important;
   margin: 5% auto;
-  border: 3px ridge silver;
+  border: 3px ridge #91c291;
   border-radius: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 .test-card {
   position: relative;
-  background-color: #c5f1ff;
-  border: #0a5ea3 solid 2px;
+  background-color: #eeffef;
+  border: #007213 solid 2px;
   margin: 15px 15px;
   height: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -193,15 +187,15 @@ p {
 }
 
 .btn {
-  background-color: #0a5ea3;
-  color: silver;
+  background-color: #007213;
+  color: #91c291;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
   margin-right: 5px;
 }
 
 .my-pic {
   width: 70%;
-  border: 3px ridge #0a5ea3;
+  border: 3px ridge #007213;
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
@@ -209,12 +203,12 @@ p {
 #port {
   text-align: center;
   font-size: 1.2rem;
-  text-shadow: 1px 1px #0a5ea3;
+  text-shadow: 1px 1px #007213;
 }
 
 @media only screen and (max-width: 900px) {
   .navbar-toggler-icon {
-    background-color: #0a5ea3;
+    background-color: #007213;
   }
   hr {
     width: 100%;
@@ -245,6 +239,7 @@ p {
     bottom: 15px;
     left: 33%;
     z-index: 12;
+    border: transparent;
   }
 }
 
@@ -265,14 +260,13 @@ p {
 .copyright {
   clear: left;
   text-align: center;
-  color: silver;
+  color: #91c291;
 }
 
 #carousel {
-  color: silver;
+  color: #91c291;
   text-align: center;
-  font-family: cursive;
-  text-shadow: 2px 2px #0a5ea3;
+  text-shadow: 1px 1px #007213;
   margin-bottom: 50px;
 }
 
@@ -292,7 +286,7 @@ p {
 
 .item a img {
   width: 100%;
-  height: 100%;
+  height: 12vw;
 }
 
 .item a img:hover {
@@ -315,7 +309,42 @@ p {
 }
 
 .dropdown-menu a {
-  color: silver;
-  text-shadow: 1px 1px #0a5ea3;
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
   font-weight: bold;
+}
+
+h4 a {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.email {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.description h4 {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+  font-size: 2.0rem;
+  margin-bottom: 25px;
+}
+
+.description ul {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+h3, .tools li, #process, #desc {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.intro-col, .intro-img {
+  margin-top: 50px;
 }
