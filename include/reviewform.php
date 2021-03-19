@@ -2,7 +2,7 @@
 
     <div class="col-lg-2"></div>
         <div class="col-lg-8">
-            <form method = "POST" action = "include/rev_table.php" id="reviewForm">
+            <form method = "POST" action = "include/rev_table.php" id="reviewForm" class="revForm">
             <div class="form-group">
                 <label for="exampleFormControlInput1" style="color: silver;">Full name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="First Name Last Name">

@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
+@import url("../node_modules/bootstrap/scss/bootstrap.scss");
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  color: #91c291 !important;
+  text-shadow: 2px 2px #007213;
+}
+
+.topNav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand {
+  color: #91c291 !important;
+  font-size: 2em;
+  text-shadow: 1px 1px #007213;
+}
+
+nav ul li {
+  margin-left: 20%;
+}
+
+.nav-link {
+  color: #91c291 !important;
+  text-shadow: 1px 1px #007213;
+  margin-right: 10%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: white !important;
+  text-shadow: 1px 1px black;
+}
+
+hr {
+  border: 1px solid #007213;
+}
+
+h5 {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+  font-size: 1.3rem;
+}
+
+.jumbotron {
+  height: 100%;
+  position: relative;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.scroll {
+  position: relative;
+}
+
+.intro {
+  color: #91c291;
+  text-shadow: 1px 1px #063861;
+  font-size: 1.2rem;
+  position: relative;
+  text-align: center;
+}
+
+.intro-row {
+  margin: 80px;
+  margin-right: 0;
+}
+
+.intro-gif {
+  border: 2px solid #007213;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+}
+
+p {
+  color: #91c291;
+  text-shadow: none;
+}
+
+.card-text {
+  color: #000;
+}
+
+#RC_h1 {
+  font-family: 'Metal Mania', cursive;
+  font-size: 4em;
+  margin: 100px;
+  z-index: 5;
+}
+
+.footer a {
+  position: relative;
+  z-index: 1;
+}
+
+.footer a:hover {
+  color: #91c291;
+}
+
+.footer a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #007213;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.footer a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+#reviews {
+  text-align: center;
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.revStyle {
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #eeffef;
+  border: #007213 solid 2px;
+  margin: 5px 5px;
+  height: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+  height: 55%;
+  border: #007213 solid 2px;
+  overflow: hidden;
+}
+
+.testimonial-img {
+  width: 35% !important;
+  margin: 5% auto;
+  border: 3px ridge #91c291;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.test-card {
+  position: relative;
+  background-color: #eeffef;
+  border: #007213 solid 2px;
+  margin: 15px 15px;
+  height: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border-radius: 45px;
+}
+
+.btn {
+  background-color: #007213;
+  color: #91c291;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+  margin-right: 5px;
+}
+
+.my-pic {
+  width: 70%;
+  border: 3px ridge #007213;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#port {
+  text-align: center;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px #007213;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-toggler-icon {
+    background-color: #007213;
+  }
+  hr {
+    width: 100%;
+  }
+  .footer {
+    margin-bottom: 1em;
+  }
+  .footer-grid {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .intro-row {
+    margin: auto;
+  }
+  .navbar {
+    position: relative;
+    top: 0;
+    z-index: 10;
+  }
+  #RC_h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 4em;
+    margin: 20px;
+  }
+  .bottomNav {
+    visibility: visible !important;
+    position: fixed;
+    bottom: 15px;
+    left: 33%;
+    z-index: 12;
+    border: transparent;
+  }
+}
+
+.footer {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 3em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-footer {
+  padding: 3em 0em 0.9em 0em;
+}
+
+.copyright {
+  clear: left;
+  text-align: center;
+  color: #91c291;
+}
+
+#carousel {
+  color: #91c291;
+  text-align: center;
+  text-shadow: 1px 1px #007213;
+  margin-bottom: 50px;
+}
+
+.bottomNav {
+  visibility: hidden;
+}
+
+.container-gallery {
+  width: 60vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: (minmax(auto, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(auto, 1fr));
+  justify-items: center;
+  gap: 20px;
+  margin: 0.2em 2em 0.2em 2em;
+}
+
+.item a img {
+  width: 100%;
+  height: 12vw;
+}
+
+.item a img:hover {
+  -webkit-filter: blur(2px) brightness(60%);
+          filter: blur(2px) brightness(60%);
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.main-padding {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.main-padding h5 {
+  margin: 30px;
+}
+
+.dropdown-menu {
+  background: transparent;
+}
+
+.dropdown-menu a {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+  font-weight: bold;
+}
+
+h4 a {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.email {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.description h4 {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+  font-size: 2.0rem;
+  margin-bottom: 25px;
+}
+
+.description ul {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+h3, .tools li, #process, #desc {
+  color: #91c291;
+  text-shadow: 1px 1px #007213;
+}
+
+.intro-col, .intro-img {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -36,6 +36,7 @@
     <script src="js/owl.js" type="text/JavaScript"></script>
     <script src="js/contval.js"></script>
     <script src="js/messval.js"></script>
+    <script src="js/reval.js"></script>
 
 </body>
 </html>
