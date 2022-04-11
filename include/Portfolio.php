@@ -5,7 +5,7 @@
 </div>
 
 <h4 id="carousel">Swipe or Scroll right or left with your mouse and visit some of the fun projects I've done!</h4>
-<p id="port">You can navigate to the website or the repo to review the code. You can see the sites evolve as my knowledge improved.</p>
+<p id="port">You can navigate to the website or the repo to review the code. You can see the sites evolve as my skills improved.</p>
     <div class="owl-carousel">
     <div class="card item">
         <img src="images/gallery2.jpeg" class="card-img-top" alt="Bellingham Hotel"/>

@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <?php include 'include/home.php';?>
+    <?php
+    include 'include/home.php';?>
     <?php include 'include/about.php';?>
     <?php include 'include/gallery.php';?>
     <?php include 'include/Portfolio.php';?>
@@ -23,7 +24,7 @@
     <?php include 'include/design.php';?>
     <?php include 'include/footer.php';?>
     
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>

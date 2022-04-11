@@ -2,7 +2,7 @@
     <div class="container footer-grid">
         <div class="footer">
             <h5 class="sub-heading">CONTACT ME</h5>
-            <p>Call @<a href ="360 499 9260"> + 1360 499 9260</a></p>
+            <p>Call @<a href ="(360) 499 9260"> + 1360 499 9260</a></p>
         </div>
         <div class="footer">
             <h5 class="sub-heading">CONTACT ME</h5>
