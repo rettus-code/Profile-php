@@ -35,7 +35,11 @@
                         <option value = "<?php echo $password3 ?>" ><?php echo $password3 ?></option>
                         <option value = "<?php echo $password4 ?>" ><?php echo $password4 ?></option>
                 </select>
+                
+            </div>
+            <div class="form-group">
                 <div>
+                <label for="exampleFormControlSelect1" style="color: silver;"></label>
                     <input type="password" class="form-control" name="pw" id = "pw" placeholder="input password" required/>
                     <input type="hidden" class="form-control" name="hd" id = "hd"/>
                 </div>

@@ -31,7 +31,7 @@
             <img src="images/it-team.jpg" class="card-img-top" alt="IT team working together">
             <div class="card-body">
             <h5 class="card-title">The future</h5>
-            <p class="card-text">I look forward to the opportunity to jump into being a full stack developer. With the high demands for work in the field I'd really like to help people with less exposure develop skills through apprenticeship and help them earn a certificate or degree as developers as well.</p>
+            <p class="card-text">I look forward to the opportunity to jump into being a full stack developer. I look forward to putting my new skills to practical use. I know I still have much to learn, but the opportunity to work collaboratively in a group on something that makes a real difference is pretty exciting. I can't wait for us to get started.</p>
             </div>
         </div>
     </div>
