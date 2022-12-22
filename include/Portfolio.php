@@ -11,16 +11,43 @@
         <img src="images/gallery2.jpeg" class="card-img-top" alt="Landing page of a website for a fictional hotel. The image used was of the pool area, in front is a kiddy pool, past that are three umbrellas each with two lounging chairs, followed by the main pool with more umbrellas and chairs. The background is trees and hotel rooms under a blue sky with pillowy and wispy clouds."/>
         <div class="card-body">
             <h5 class="card-title">Bellingham Hotel</h5>
-            <p class="card-text">Project for an internet resources minor. Solo project completed in PHP, MySQL, Sass, and JS. It was my first time using PHP and found it pretty impressive.</p>
+            <p class="card-text">Project for an internet resources minor. Solo project completed in PHP, MySQL, Sass, and JS. It was my first time using PHP and found it pretty impressive. After other PHP based projects, rewrote this profile in PHP replacing the original done with React.</p>
             <a href="http://rettus-code.com/bellhotel/" class="btn" target="_blank">Bellingham Hotel</a>
             <a href="https://github.com/rettus-code/lab6" class="btn" target="_blank">Repo</a>
+        </div>
+    </div>
+    <div class="card item">
+        <img src="images/ploomdemo.png" class="card-img-top" alt="Landing page of a website for a for fashion retail. The center of the page has a strong conjfident female model wearing a pink outfit with a matching sash belt."/>
+        <div class="card-body">
+            <h5 class="card-title">Ploom</h5>
+            <p class="card-text">Startup project for a fashion advice application. My job was to correct trouble tickets to fix visual as well as functional elements. Working with Vue.js developed carousel where existing frameworks didn't work. Wrote the sorting algorith and the functionality for all child elements to sort when controlling child sort option was selected. Git manager in charge of creating new sprints and merging into development branch for testing and QA review. Due to NDA, cannot share repo for this project.</p>
+            <a href="https://frontend-dev-hr2j5botzq-uc.a.run.app/" class="btn" target="_blank">Ploom</a>
+        </div>
+    </div>
+    <div class="card item">
+        <img src="images/Redruth.png" class="card-img-top" alt="Demonstrates the audio replay format and metadata input."/>
+        <div class="card-body">
+            <h5 class="card-title">Redruth Project</h5>
+            <p class="card-text">This was a proof of concept for a community based audio recording website that was intended to be used by a library in Redruth UK. It was designed with an expanded use case concept. Users audio recordings are stored in AWS S3 buckets and data in Mongodb. Western Washington University has taken it on as an ongoing project to expand its use case and explore its potential. If you save a recording it requires the Webmaster to approve it before it becomes available to the public.</p>
+            <a href="https://redruthpe.herokuapp.com/" class="btn" target="_blank">Redruth Library</a>
+            <a href="https://github.com/rettus-code/Redruth" class="btn" target="_blank">Repo</a>
+        </div>
+    </div>
+    <div class="card item">
+        <video class="card-img-top" autoplay controls loop>
+        <source src="images/CSCI345demo.mp4" type="video/mp4">
+        </video>
+        <div class="card-body">
+            <h5 class="card-title">Deadwood</h5>
+            <p class="card-text">A Java based digital version of the Deadwood boardgame using Swing for the GUI. This was an Object Oriented Program with a focus on design creation and implementation. My partner and I used MVC, Observer, Singleton, Builder, and Composite design patterns. </p>
+            <a href="https://github.com/rettus-code/BoardGame" class="btn" target="_blank">Repo</a>
         </div>
     </div>
     <div class="card item">
         <img src="images/Repo.png" class="card-img-top" alt="Github accopunt for rettus-code. Top left is an image of the account owner, with some description and links below the image, the right two thirds has a list of a few repo's related to the account and graphics indicating activity on the site."/>
         <div class="card-body">
             <h5 class="card-title">My github repo</h5>
-            <p class="card-text">Most of the projects I've done, whether for school or something on the side I've put most of it here with plenty more coming soon. </p>
+            <p class="card-text">Standard Github repo. Most of the projects I've done, whether for school or something on the side I've put most of it here with plenty more coming soon. </p>
             <a href="https://github.com/rettus-code" class="btn" target="_blank">Repo</a>
         </div>
     </div>
@@ -45,30 +72,10 @@
     </div>
     
     <div class="card item">
-        <img src="images/vader.png" class="card-img-top" alt="Contains the following images, baby yoda, Yoda, Darth Vader and in between them a french bulldog that is meant to look like a hybrid of Yoda and Darth vader. There is some writing and smaller images along the bottom depicting star wars scenes.">
-        <div class="card-body">
-            <h5 class="card-title">Vader</h5>
-            <p class="card-text">Doing a Summer bootcamp to gain some web skills we had to make something and well he's adorable photogenic, and everyone wants to see him. A new part of the family I introduce to you Vader.</p>
-            <a href="https://rettus-code.github.io/vader/index.html" class="btn" target="_blank">Vader</a>
-            <a href="https://github.com/rettus-code/vader" class="btn" target="_blank">Repo Spot</a>
-        </div>
-    </div>
-    
-    <div class="card item">
-        <img src="images/weather.png" class="card-img-top" alt="The background has some ominous looking cloudy weather over some farm silos in a grass field, the forground has information on current weather conditions and 5 cards for weather over the next 5 days">
-        <div class="card-body">
-            <h5 class="card-title">Weather-Cast-12000</h5>
-            <p class="card-text">First time using APIs. Find out the weather in your town. Need to revisit this page to work out some bugs but I thought it was nifty.</p><br>
-            <a href="https://rettus-code.github.io/Weather-cast-12000/" class="btn" target="_blank">Weather-Cast-12000</a>
-            <a href="https://github.com/rettus-code/Weather-cast-12000" class="btn" target="_blank">Repo Spot</a>
-        </div>
-    </div>
-    
-    <div class="card item">
         <img src="images/beer.png" class="card-img-top" alt="In the center are two nearly empty glass beer mugs on a bar with peoples forearms resting on the bar. There is a box just off center with the title 'Find breweries near you'">
         <div class="card-body">
             <h5 class="card-title">BrewFinder</h5>
-            <p class="card-text">First group project for the UW bootcamp certification. We were required to use 3 APIs to develop an application. My part was to work on the Javascript. I liked the idea, but a weeks is just not enough time, Perhaps I can return to it after school.</p>
+            <p class="card-text">First group project for the UW bootcamp certification. We were required to use 3 APIs to develop an application. My part was to work on the Javascript. I liked the idea, but a weeks is just not enough time, still it was a cool idea and great first team project for me.</p>
             <a href="https://domjparker.github.io/brewfinder/" class="btn" target="_blank">BrewFinder</a>
             <a href="https://github.com/domjparker/brewfinder" class="btn" target="_blank">Repo Spot</a>
         </div>
@@ -78,7 +85,7 @@
         <img src="images/PawsLife.png" class="card-img-top" alt="A website with a navbar in yellow on top with the name PawsLife, below that is a banner taking a third of the vertical space with pets headshots from left to right of a bulldog, calico cat, basset hound, an exotic short hair cat, and french bulldog puppy.  The lower 2thirds has side by side large buttons. Left button has an sillhouette of a walking cat title under 'Feline Friendly Services.The right is a sillhouette of a dog running playfully title under 'Puppy Pals Services'.">
         <div class="card-body">
             <h5 class="card-title">PawsLife</h5>
-            <p class="card-text">Second group project for UW certification. We had lofty goals for 8 days work, but it was a lot of fun. I see now why apps evolve over time as you continue to work on them.</p>
+            <p class="card-text">Second group project for UW certification. We had lofty goals for 8 days work, but it was a lot of fun. It's unfortunate we had so little time to develop a plan and use the software development life cycle. Short turn arounds often drove us to begin to develop before a plan was fully explored wich required scope creep to as the app design evolved during development.</p>
             <a href="https://pawslife.herokuapp.com/" class="btn" target="_blank">PawsLife</a>
             <a href="https://github.com/rickyg218/PawsLIfe-" class="btn" target="_blank">Repo Spot</a>
         </div>
@@ -87,21 +94,13 @@
         <img src="images/videezy.png" class="card-img-top" alt="Videezy, video conference made it easy stated at the top, the lower left is a static image of someone being streamed via webcam, and the right a few lines describing the video streaming services uses."/>
         <div class="card-body">
             <h5 class="card-title">Videezy</h5>
-            <p class="card-text">Final group project for UW certification. This required us to use a database, and frontend styling we had not worked with before. A cool application, unfortunately has not been maintained, but a project I wouldn't mind completing.</p>
+            <p class="card-text">Final group project for UW certification. This required us to use a database, and frontend styling we had not worked with before. My focus was on the backen particularly getting the video streaming to work, the database for user accounts and user login.</p>
             <a href="https://dropinsamine.herokuapp.com/" class="btn" target="_blank">Videezy</a>
             <a href="https://github.com/epachols/dropin_api" class="btn" target="_blank">Back End</a>
             <a href="https://github.com/NickMardon/DragChat" class="btn" target="_blank">Front End</a>
         </div>
     </div>
-    <div class="card item">
-        <img src="images/Eberron.png" class="card-img-top" alt="Title at top is 'Welcome to Ebberon' with a partial image of the book of Eberron used in the D&D gaming universe. The colors of red yellow and gold on a black background. The gold looks shaped with sahrp lines and points giving the impression of significant metal forging"/>
-        <div class="card-body">
-            <h5 class="card-title">Eberron</h5>
-            <p class="card-text">Needed something to do so used a table top game I've been playing. Next I'll be adding a DB to allow players and DM to login and edit profiles and possibly expand it's capacity over time to include note taking and possibly chat interactions. I'm focused on it as a mobile application.</p>
-            <a href="https://eberron.herokuapp.com/" class="btn btn-primary" target="_blank">Eberron</a>
-            <a href="https://github.com/rettus-code/DnD" class="btn btn-primary" target="_blank">Repo</a>
-        </div>
-    </div>
+    
     <div class="card item">
         <img src="images/IPrivacy.png" class="card-img-top" alt="A demo for an internet privacy awareness app. The top is a map that automatically zooms into the users location, followed by a targeted ad that uses their local weather to make recomendations."/>
         <div class="card-body">

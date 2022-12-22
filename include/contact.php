@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-2 col-md-1"></div>
             <div class="col-lg-4 col-md-5">
-                <img src="images/me.jpg" class="my-pic" alt="Pic of me">
+                <img src="images/me.jpg" class="my-pic" alt="Pic of me above the waist, White male with a striped collared shirt, wearing a ballcap framed by two trees and a valley and hills in the background">
             </div>
         </div>
     </div>

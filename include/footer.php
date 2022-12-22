@@ -14,5 +14,6 @@
         </div>
     </div>
     <a class="btn bottomNav btn-primary" href="#home" role="button">Return to Top</a>
+    
     <div class="copyright"><i class="far fa-copyright"></i> Copyright 2020 All rights reserved | Michael Rettus</div>
 </footer>
