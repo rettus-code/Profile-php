@@ -9,11 +9,7 @@ $review = $_POST['review'];
 $pw = $_POST['pw'];
 $password = $_POST['password'];
 $hd = $_POST['hd'];
-if ($name === "Ramonweaws") {
-    $link = "rettus-code.com";
-    $stars = 5;
-    $review = "Best developer I ever met!!!"
-}
+
 if ($hd !== "" || $pw !== $password){
     ?>
         <script>

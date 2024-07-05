@@ -2,7 +2,7 @@
     <script src="../js/owl.js" type="text/JavaScript"></script>
 
 <div  id="about" class="row">
-    <header class="col-12">
+    <header class="col-12 header">
         <h1 id="RC_h1" class="text-center">About Me</h1>
     </header>
 </div>
@@ -13,25 +13,25 @@
             <img src="images/anchor.jpg" class="card-img-top" alt="Navy Chief's anchor. A fouled golden anchor with the anchor chain looping back and forth behind it, and in Silver the letters U S N on front">
             <div class="card-body">
             <h5 class="card-title">Coming from</h5>
-            <p class="card-text">I spent 22 years in the Navy working with amazing people. I learned a lot of skills, but probably the most important was tenacity and knowing how far I can push myself to accomplish my goals.</p>
+            <p class="card-text">I spent 22 years in the Navy working with amazing people, and doing incredible things. I developed a laundry list of skills, but probably the most important was tenacity and knowing how far I can push myself to accomplish my goals. I was ready to start a new challenge, and finish an old dream.</p>
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-4 mt-3 center">
+    <div class="col-lg-4 col-md-4 mt-3 middle">
         <div class="card">
             <img src="images/Western.jpg" class="card-img-top" alt="Western Washington University Vikings logo. Everything on a blue backdrop The middle has a viking ship proudly riding up a wave centered in a silver circular field. This field has Western above and vikings below in silver following the curve of the circular field with and a silver ring around everything. The blue backdrop extends to the edges of the image.">
             <div class="card-body">
             <h5 class="card-title">Currently</h5>
-            <p class="card-text">Finished a transfer certificate for computer science, I've been accepted to finish my degree at Western Washington University. I'm in my final year and still enjoy what I'm doing. It has not been a simple journey so far. Transitioning to remote, then back to in person has been challenging, but has also given me tools to work in both environments.</p>
+            <p class="card-text">I went back to school. First completing a transfer degree in computer science, I was accepted at Western Washington University to complete my BS in Computer Science. I recently graduated and while I feel like I've accomplished much, I know there is a larger journey of growth and development in front of me. I look forward to meeting new challenges and learning from those experiences.</p>
             </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-4 mt-3 sideright">
         <div class="card">
-            <img src="images/ethics.jpg" class="card-img-top" alt="A blue almost cloudless sky. A large white sign shaped to point to the foreground on a black pole scribed with the word 'ethics'. Behind and to the right is another black pole with other white signs pointing in different directions. Each with one of the following words from top down: Dilemma, values, right, compliance, morals, wrong, benefit, and choice.">
+            <img src="images/future.avif" class="card-img-top" alt="A blue almost cloudless sky. A large white sign shaped to point to the foreground on a black pole scribed with the word 'ethics'. Behind and to the right is another black pole with other white signs pointing in different directions. Each with one of the following words from top down: Dilemma, values, right, compliance, morals, wrong, benefit, and choice.">
             <div class="card-body">
             <h5 class="card-title">The future</h5>
-            <p class="card-text">I look forward to the opportunity to jump into being a full stack developer. I would really love to focus on ethical programming. With accessibility concerns, and new rules on privacy it's becoming a financial concern, but more importantly we owe it to our community to provide a safe and positive space to use what we create. I'd really to develop in a way that brings the technology I work on to people who traditionally would have little access to it.</p>
+            <p class="card-text">I look forward to the opportunity to jump into being a full stack developer. I want to focus on ethical programming. With accessibility concerns, and new rules on privacy, not only is it a financial concern, but one we owe to our communities that support the work we do. Additionally I'd like to bring the advantages of the internet to communities that have little access to it beyond being a user.</p>
             </div>
         </div>
     </div>

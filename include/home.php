@@ -5,7 +5,7 @@
     <---- nav ------>
     <?php include 'navbar.php';?>
     <div class="row">
-        <header class="col-md-12">
+        <header class="col-md-12 header">
             <h1 id="RC_h1"  class="text-center">Rettus-Code</h1>
         </header>
     </div>  

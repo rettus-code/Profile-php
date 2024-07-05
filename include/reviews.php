@@ -1,5 +1,5 @@
 <div id="rev_loc" class="row">
-        <header class="col-md-12">
+        <header class="col-md-12 header">
             <h1 id="RC_h1"  class="text-center">Reviews</h1>
         </header>
     </div>

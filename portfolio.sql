@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `rettodua_portfolio`
+-- Database: `rettdzly_portfolio`
 --
 
 -- --------------------------------------------------------
@@ -60,7 +60,7 @@ CREATE TABLE `message` (
 --
 
 INSERT INTO `message` (`email`, `topic`, `text`) VALUES
-('michael.rettusii@gmail.com', 'new', 'new new'),
+('michael.rettusii@gmail.com', 'new', 'new new')
 
 
 -- --------------------------------------------------------

@@ -1,5 +1,5 @@
 <div id="design" class="container">
-    <header class="col-md-12 row">
+    <header class="col-md-12 row header">
         <h1 id="RC_h1" class="text-center">Design Description</h1>
     </header>
     

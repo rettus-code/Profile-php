@@ -16,7 +16,7 @@ $(function(){
     sr.reveal('.sideright',{
         origin: 'right',
     });
-    sr.reveal('.center');
+    sr.reveal('.middle');
     
     baguetteBox.run('.gallery', {
         animation: 'fadeIn',

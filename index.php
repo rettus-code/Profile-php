@@ -14,18 +14,9 @@
 </head>
 
 <body>
-    <?php
-    include 'include/home.php';?>
-    <?php include 'include/about.php';?>
-    <?php include 'include/gallery.php';?>
-    <?php include 'include/Portfolio.php';?>
-    <?php include 'include/reviews.php';?>
-    <?php include 'include/contact.php';?>
-    <?php include 'include/design.php';?>
-    <?php include 'include/footer.php';?>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
     <script src="node_modules/popper.js/dist/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/scrollreveal/dist/scrollreveal.js"></script>
@@ -33,11 +24,21 @@
     <script src="node_modules/owl.carousel/src/js/owl.carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.js" async></script>
     <script src="js/lightbox.js" type="text/JavaScript"></script>
+
+    <?php include 'include/home.php';?>
+    <?php include 'include/about.php';?>
+    <?php include 'include/gallery.php';?>
+    <?php include 'include/Portfolio.php';?>
+    <!-- <?php include 'include/reviews.php';?> -->
+    <?php include 'include/contact.php';?>
+    <?php include 'include/design.php';?>
+    <?php include 'include/footer.php';?>
     <script src="js/main.js" type="text/JavaScript"></script>
     <script src="js/owl.js" type="text/JavaScript"></script>
     <script src="js/contval.js"></script>
     <script src="js/messval.js"></script>
     <script src="js/reval.js"></script>
+
 
 </body>
 </html>
